@@ -68,3 +68,36 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Adding Tailwind and Twin-Macro on CRA with React 17
+
+1. First let’s create a CRA React app:
+
+### `npx create-react-app my-portfolio` 
+
+2.  Next install all the [Tailwind](https://tailwindcss.com/), [twin.macro]{https://github.com/ben-rogerson/twin.macro}, and [emotion]{https://emotion.sh/docs/introduction} libraries:
+
+### `npm install tailwindcss twin.macro @emotion/core @emotion/styled @emotion/react`
+
+3. Next up, we initialize Tailwind.
+
+### `npx tailwindcss init`
+
+4. Add a new `babelMacros` key to `package.json`
+
+```  
+"babelMacros": {
+    "twin": {
+      "config": "tailwind.config.js"
+    }
+  },
+```
+
+5. Import the tailwind CSS into your `index.js` file
+
+```
+import 'tailwindcss/dist/base.min.css';
+import 'tailwindcss/dist/components.min.css'
+import 'tailwindcss/dist/utilities.min.css'
+```
+This completes the setup.
