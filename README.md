@@ -73,15 +73,15 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 1. First let’s create a CRA React app:
 
-### `npx create-react-app my-portfolio` 
+`npx create-react-app my-portfolio` 
 
 2.  Next install all the [Tailwind](https://tailwindcss.com/), [twin.macro](https://github.com/ben-rogerson/twin.macro), and [emotion](https://emotion.sh/docs/introduction) libraries:
 
-### `npm install tailwindcss twin.macro @emotion/core @emotion/styled @emotion/react`
+`npm install tailwindcss twin.macro @emotion/core @emotion/styled @emotion/react`
 
 3. Next up, we initialize Tailwind.
 
-### `npx tailwindcss init`
+`npx tailwindcss init`
 
 4. Add a new `babelMacros` key to `package.json`
 
