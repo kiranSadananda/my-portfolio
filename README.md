@@ -75,7 +75,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ### `npx create-react-app my-portfolio` 
 
-2.  Next install all the [Tailwind](https://tailwindcss.com/), [twin.macro]{https://github.com/ben-rogerson/twin.macro}, and [emotion]{https://emotion.sh/docs/introduction} libraries:
+2.  Next install all the [Tailwind](https://tailwindcss.com/), [twin.macro](https://github.com/ben-rogerson/twin.macro), and [emotion](https://emotion.sh/docs/introduction) libraries:
 
 ### `npm install tailwindcss twin.macro @emotion/core @emotion/styled @emotion/react`
 
